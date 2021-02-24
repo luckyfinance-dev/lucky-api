@@ -2,7 +2,7 @@
   {
     "inputs": [
       {
-        "internalType": "contract GFToken",
+        "internalType": "contract GoodFortuneToken",
         "name": "_GFT",
         "type": "address"
       },
@@ -157,7 +157,7 @@
     "name": "GFT",
     "outputs": [
       {
-        "internalType": "contract GFToken",
+        "internalType": "contract GoodFortuneToken",
         "name": "",
         "type": "address"
       }
