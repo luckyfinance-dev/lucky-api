@@ -34,11 +34,11 @@ provider:
   runtime: nodejs12.x
   region: ap-northeast-1
   stage: ${opt:stage, 'dev'}
-  profile: luckyFinancial
+  profile: LuckyFinancial
   logRetentionInDays: 30
   environment:
     Provider: "https://bsc-dataseed.binance.org/"
-    GFTAddress: "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6"
+    GFTAddress: "0xb2Ba6fa707948f9A0BC420C35b78e5020A07bc4d"
     BurnAddress: "0x000000000000000000000000000000000000dead"
 # bsc-wallets and burn address
   iamRoleStatements:

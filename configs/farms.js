@@ -13,7 +13,7 @@ export const farmsConfig = [
         tokenSymbol: 'GFT',
         tokenAddresses: {
             97: '',
-            56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+            56: '0xb2Ba6fa707948f9A0BC420C35b78e5020A07bc4d',
         },
         quoteTokenSymbol: QuoteToken.BUSD,
         quoteTokenAdresses: contracts.busd,
@@ -29,7 +29,7 @@ export const farmsConfig = [
         tokenSymbol: 'GFT',
         tokenAddresses: {
             97: '',
-            56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+            56: '0xb2Ba6fa707948f9A0BC420C35b78e5020A07bc4d',
         },
         quoteTokenSymbol: QuoteToken.BNB,
         quoteTokenAdresses: contracts.wbnb,
@@ -190,7 +190,7 @@ export const farmsConfig = [
         tokenSymbol: 'GFT',
         tokenAddresses: {
             97: '',
-            56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+            56: '0xb2Ba6fa707948f9A0BC420C35b78e5020A07bc4d',
         },
         quoteTokenSymbol: QuoteToken.BUSD,
         quoteTokenAdresses: contracts.busd,
@@ -365,4 +365,56 @@ export const farmsConfig = [
         quoteTokenSymbol: QuoteToken.BUSD,
         quoteTokenAdresses: contracts.busd,
     },
+    {
+        pid: 23,
+        risk: 3,
+        isTokenOnly: true,
+        lpSymbol: 'AUTO',
+        lpAddresses: {
+          97: '',
+          56: '0x4d0228ebeb39f6d2f29ba528e2d15fc9121ead56', // AUTO-BNB LP - Pancake
+        },
+        tokenSymbol: 'AUTO',
+        tokenAddresses: {
+          97: '',
+          56: '0xa184088a740c695e156f91f5cc086a06bb78b827', // AUTO Token Address
+        },
+        quoteTokenSymbol: QuoteToken.BNB,
+        quoteTokenAdresses: contracts.wbnb,
+      },
+      {
+        pid: 24,
+        risk: 5,
+        lpSymbol: 'GFT-BAKE LP',
+        lpAddresses: {
+          97: '',
+          56: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
+        },
+        /** Add BAKE GFT LP Token Address */
+        tokenSymbol: 'GFT',
+        tokenAddresses: {
+          97: '',
+          56: '0xb2Ba6fa707948f9A0BC420C35b78e5020A07bc4d',
+        },
+            /** GFT Token Address */
+        quoteTokenSymbol: QuoteToken.BAKE,
+        quoteTokenAdresses: contracts.bake,
+      },
+      {
+        pid: 25,
+        risk: 3,
+        isTokenOnly: true,
+        lpSymbol: 'BAKE',
+        lpAddresses: {
+          97: '',
+          56: '0x4d0228ebeb39f6d2f29ba528e2d15fc9121ead56', // BAKE-BNB LP - NEEDS TO BE EDITED
+        },
+        tokenSymbol: 'BAKE',
+        tokenAddresses: {
+          97: '',
+          56: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
+        },
+        quoteTokenSymbol: QuoteToken.BUSD,
+        quoteTokenAdresses: contracts.busd,
+      },
 ]

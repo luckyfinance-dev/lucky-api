@@ -4,4 +4,5 @@ export const TokenSymbols = {
     "BUSD": "BUSD",
     "USDC": "USDC",
     "USDT": "USDT",
+    "BAKE": "BAKE",
 }
