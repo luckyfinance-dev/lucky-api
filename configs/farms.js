@@ -8,7 +8,7 @@ export const farmsConfig = [
         lpSymbol: 'GFT-BUSD LP',
         lpAddresses: {
             97: '',
-            56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+            56: '0x475f196931247947b25e58b3f2040fb31011897b',
         },
         tokenSymbol: 'GFT',
         tokenAddresses: {
@@ -24,7 +24,7 @@ export const farmsConfig = [
         lpSymbol: 'GFT-BNB LP',
         lpAddresses: {
             97: '',
-            56: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
+            56: '0x7fd43f967fbe248ff84a2d7bf30a52c9bc1293b9',
         },
         tokenSymbol: 'GFT',
         tokenAddresses: {
@@ -185,7 +185,7 @@ export const farmsConfig = [
         lpSymbol: 'GFT',
         lpAddresses: {
             97: '',
-            56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // GFT-BUSD LP
+            56: '0x475f196931247947b25e58b3f2040fb31011897b', // GFT-BUSD LP
         },
         tokenSymbol: 'GFT',
         tokenAddresses: {
@@ -202,7 +202,7 @@ export const farmsConfig = [
         lpSymbol: 'BUSD',
         lpAddresses: {
             97: '',
-            56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // GFT-BUSD LP (BUSD-BUSD will ignore)
+            56: '0x475f196931247947b25e58b3f2040fb31011897b', // GFT-BUSD LP (BUSD-BUSD will ignore)
         },
         tokenSymbol: 'BUSD',
         tokenAddresses: {
@@ -388,7 +388,7 @@ export const farmsConfig = [
         lpSymbol: 'GFT-BAKE LP',
         lpAddresses: {
           97: '',
-          56: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
+          56: '',
         },
         /** Add BAKE GFT LP Token Address */
         tokenSymbol: 'GFT',
